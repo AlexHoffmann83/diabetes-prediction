@@ -94,3 +94,5 @@ if st.button('Prever Diabetes'):
     """,
     unsafe_allow_html=True
     )
+
+    st.markdown("**Autor:** Alex Hoffmann  \nGitHub: [@AlexHoffmann83](https://github.com/AlexHoffmann83)")

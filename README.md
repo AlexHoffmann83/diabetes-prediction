@@ -1,6 +1,6 @@
 # Preditor de Diabetes com Machine Learning
 
-Este projeto é um estudo prático de Inteligência Artificial aplicado à área da saúde. Utilizamos o **Pima Indians Diabetes Database** para treinar um modelo de aprendizado de máquina capaz de prever a ocorrência de diabetes com base em dados clínicos.
+Este projeto é um estudo prático de Inteligência Artificial aplicado à área da saúde. Utilizei o **Pima Indians Diabetes Database** para treinar um modelo de aprendizado de máquina capaz de prever a ocorrência de diabetes com base em dados clínicos.
 
 ---
 
@@ -44,8 +44,10 @@ Criar um **modelo de classificação** para prever a probabilidade de uma pessoa
 - `class_weight='balanced'`
 - `random_state=42`
 
-** Motivo da escolha:**  
+**Motivo da escolha:**  
 Apresentou o melhor equilíbrio entre desempenho no conjunto de treino e teste, sem overfitting, e maior recall para casos positivos (diabetes), que é o principal objetivo do projeto.
+
+
 
 ---
 
@@ -77,14 +79,15 @@ pip install -r requirements.txt
 
 4. Rode a aplicação:
 streamlit run app/diabetes_deploy.py
-📸 Imagem da aplicação
-(Adicione aqui um print do Streamlit rodando, se quiser)
-![app screenshot](app_screenshot.png)
 
-Observações Importantes
-Este projeto é apenas um exemplo didático de aplicação de Machine Learning.
-O modelo foi treinado com base em um grupo étnico específico e não deve ser utilizado para diagnóstico médico real.
 
-Autor:
-Alex Hoffmann
-GitHub
+**Ou acesse direto no link: https://diabetes-prediction-4vwfijisjvenxuhcnbyqdb.streamlit.app/**
+
+
+
+## Observações Importantes
+Este projeto é um estudo acadêmico. Os resultados não devem ser utilizados como ferramenta diagnóstica ou orientação médica. O modelo foi treinado com uma base de dados específica e pode não se generalizar para outras populações.
+
+## Autor
+
+[Alex Hoffmann](https://github.com/AlexHoffmann83)
