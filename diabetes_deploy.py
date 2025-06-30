@@ -56,19 +56,19 @@ def predict(data):
     return prediction
 
 # Interface do Streamlit
-#st.title("Preditor de Diabetes com Inteligência Artificial")
+
 st.markdown("""
 <h1 style='text-align: center; color: #2c3e50;'>
-    Preditor de Diabetes com <br> Inteligência Artificial
+    Preditor de Diabetes tipo 2 <br> com Inteligência Artificial
 </h1>
 """, unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.markdown("""
-<div style='padding: 10px; border: 2px solid #d9534f; border-radius: 5px; background-color: #f2dede; color: #a94442'>
+<div style='padding: 10px; border: 2px solid #d9534f; border-radius: 5px; background-color: #f2dede; color: #a94442; text-align: justify'>
 <b>Aviso Importante:</b> Este aplicativo não é um dispositivo médico.
-É um modelo preditivo desenvolvido com base em dados públicos (Pima Indians Diabetes Dataset),
+É um modelo preditivo desenvolvido com base em dados públicos (Pima Indians Diabetes Database),
 e deve ser usado apenas para fins educacionais ou exploratórios. <br><br>
 Este resultado não substitui a avaliação de um profissional da saúde. Em caso de suspeita de diabetes, procure atendimento médico.
 </div>
@@ -82,7 +82,7 @@ with st.expander("📈 Sobre o modelo de predição"):
     - Acurácia geral obtida na validação: **74,68%**
     - Base de dados: [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
     - Métricas calculadas usando validação de dados com divisão 80/20.
-    - O desenvolvimento científico de validação de dados, escolha do algorítmo de Machine Learning e comentários pertinentes, podem ser visualizados no Github: [Repositório do projeto](https://github.com/AlexHoffmann83/diabetes-prediction).
+    - O desenvolvimento científico de validação de dados, algorítmo de Machine Learning, ajustes e comentários pertinentes, podem ser visualizados no Github: [Repositório do projeto](https://github.com/AlexHoffmann83/diabetes-prediction).
     """)
 
 
@@ -122,7 +122,7 @@ st.markdown(
 Este projeto é um objeto de estudo de Inteligência Artificial (Machine Learning) realizado com dados do Pima Indians Diabetes Database.<br>
 Base de dados: <a href='https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database' target='_blank'>Pima Indians Diabetes Database</a><br>
 <br>
-A base de dados utilizada neste projeto, foi escolhida por ser uma das mais amplamente utilizadas em pesquisas de aprendizado de máquina para o estudo de diabetes. Ela contém informações clínicas de mulheres de ascendência Pima, um grupo indígena norte-americano que apresenta alta incidência da doença, o que a torna valiosa para modelos preditivos. Por sua estrutura bem organizada, alta incidência de casos positivos de diabetes e amplo uso acadêmico, essa base é referência em benchmark para algoritmos de classificação.
+A base de dados utilizada neste projeto foi escolhida por ser uma das mais amplamente utilizadas em pesquisas de aprendizado de máquina para o estudo de diabetes. Ela contém informações clínicas de mulheres de ascendência Pima, um grupo indígena norte-americano que apresenta alta incidência da doença, o que a torna valiosa para modelos preditivos. Por sua estrutura bem organizada, alta incidência de casos positivos de diabetes e amplo uso acadêmico, essa base é referência em benchmark para algoritmos de classificação.
 <br><br>
 ⚠️ Atenção: Este modelo não considera fatores clínicos adicionais
 como histórico familiar, hábitos alimentares, nível de estresse ou exames laboratoriais não presentes na base original. <br><br>
@@ -135,5 +135,7 @@ unsafe_allow_html=True
 )
 
 st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("---")
 
 st.markdown("**Autor:** Alex Hoffmann  \nGitHub: [@AlexHoffmann83](https://github.com/AlexHoffmann83)")
