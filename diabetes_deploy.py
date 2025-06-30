@@ -88,11 +88,11 @@ with st.expander("📈 Sobre o modelo de predição"):
 
 # Criação de campos para entrada de dados
 pregnancies = st.selectbox('Número de Gravidez', list(range(0, 21)))
-glucose = st.number_input('Glicose', min_value = 40, max_value = 300, value = 80)
-bloodPressure = st.number_input('Pressão Arterial Diastólica', min_value = 40, max_value = 150, value = 80)
-skinThickness = st.number_input('PCT (espessura da prega cutânea do triceps)', min_value = 0, max_value = 500, value = 20)
-insulin = st.number_input('Insulina', min_value = 0, max_value = 900, value = 79)
-bmi = st.number_input('IMC (índice de massa corporal)', min_value = 0.0, max_value = 100.0, value = 31.9, step=0.1, format="%.1f")
+glucose = st.number_input('Glicose (mg/dL)', min_value = 40, max_value = 300, value = 80)
+bloodPressure = st.number_input('Pressão Arterial Diastólica (mmHg)', min_value = 40, max_value = 150, value = 80)
+skinThickness = st.number_input('PCT - Espessura da prega cutânea do triceps (mm)', min_value = 0, max_value = 500, value = 20)
+insulin = st.number_input('Insulina (µU/mL)', min_value = 0, max_value = 900, value = 79)
+bmi = st.number_input('IMC - Índice de massa corporal', min_value = 0.0, max_value = 100.0, value = 31.9, step=0.1, format="%.1f")
 age = st.selectbox('Idade', list(range(0, 101)), index=20)
 
 
