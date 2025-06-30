@@ -124,7 +124,7 @@ Base de dados: <a href='https://www.kaggle.com/datasets/uciml/pima-indians-diabe
 <br>
 A base de dados utilizada neste projeto, foi escolhida por ser uma das mais amplamente utilizadas em pesquisas de aprendizado de máquina para o estudo de diabetes. Ela contém informações clínicas de mulheres de ascendência Pima, um grupo indígena norte-americano que apresenta alta incidência da doença, o que a torna valiosa para modelos preditivos. Por sua estrutura bem organizada, alta incidência de casos positivos de diabetes e amplo uso acadêmico, essa base é referência em benchmark para algoritmos de classificação.
 <br><br>
-⚠️ Atenção: Apesar da boa acurácia, o modelo não considera fatores clínicos adicionais
+⚠️ Atenção: Este modelo não considera fatores clínicos adicionais
 como histórico familiar, hábitos alimentares, nível de estresse ou exames laboratoriais não presentes na base original. <br><br>
 O resultado deste preditor, apesar de ter uma alta acurácia ao prever diabetes no grupo de estudo, pode não ser assertivo ao prever diabetes em outros 
 grupos étnicos, ou em grupos com hábitos diferentes das índias de ascendência Pima estudadas pelo nosso modelo de ML.<br><br>
