@@ -66,7 +66,7 @@ Apresentou o melhor equilíbrio entre desempenho no conjunto de treino e teste, 
 
 ## Como executar o projeto
 
-### 1. Clone o repositório:
+1. Clone o repositório:
 git clone https://github.com/seu-usuario/diabetes-prediction-streamlit-ml.git
 cd diabetes-prediction-streamlit-ml
 
